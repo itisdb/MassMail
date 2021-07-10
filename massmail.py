@@ -60,7 +60,7 @@ def showBanner(emailid,excel,sl,mess):
 # Read the message to send from a given text file
 def readMessage(filename):
 	if(path.isfile(filename)):
-		f = codecs.open(filename, "r")
+		f = codecs.open(filename, "r", encoding="utf-8")
 		return f.read()
 	else :
 		print(f"{RED}[-] No Such File Exists !{NONE}")

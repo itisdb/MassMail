@@ -1,2 +1,15 @@
 pandas==1.2.3
 tabulate==0.8.9
+
+How to run:
+
+use the code: 
+python massmail.py -h
+to get help
+
+use the code:
+python massmail.py -e senderemailid@gmail.com -s excelfilelink -sl "Subject of the Mail" -m messageHTMLfileLink
+
+
+if there is an error like import problems: 
+pip install (headerName which is giving error)  
